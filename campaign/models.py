@@ -15,7 +15,7 @@ class Campaign(models.Model):
     subject = models.CharField(max_length=255)
     preview_text = models.CharField(max_length=255)
     article_url = models.URLField()
-    html_content = models.TextField()
+    html_content = models.TextField(blank=True, null=True)
     plain_text_content = models.TextField()
     published_date = models.DateField()
 
