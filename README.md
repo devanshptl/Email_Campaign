@@ -98,7 +98,7 @@ python manage.py send_campaigns
 from campaign.tasks import send_daily_campaign
 send_daily_campaign.delay()
 ```
-
+### Option 3: It will send campaigns on 7:30 am IST Everyday
 ---
 
 ##  API Endpoints
